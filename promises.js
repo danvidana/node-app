@@ -4,7 +4,7 @@ const e = require("express");
 var promise = new Promise(function(resolve, reject) {
     // do a thing, possibly async, then...
 
-    if (/* everything turned out fine */) {
+    if (/* this needs real conditional*/true) {
         resolve("Stuff worked!");
     }else {
         reject(Error("It broke"));
